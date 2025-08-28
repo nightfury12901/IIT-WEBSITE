@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turbulent Resilient FSO System | Projects | Dr. Abhishek Dixit</title>
+    <link rel="stylesheet" href="styles6.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <canvas id="interactive-bg"></canvas>
+    <div id="gradient-spot"></div>
+    <div class="iit-logo-bg"></div>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">Dr. Abhishek Dixit</div>
+            <ul class="nav-menu">
+                <li><a href="index9.html" class="nav-link">Home</a></li>
+                <li><a href="research.html" class="nav-link">Research</a></li>
+                <li><a href="publications.html" class="nav-link">Publications</a></li>
+                <li><a href="projects.html" class="nav-link active">Projects</a></li>
+                <li><a href="team.html" class="nav-link">Team</a></li>
+                <li><a href="awards.html" class="nav-link">Awards</a></li>
+                <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Turbulent Resilient Free Space Optical System</h1>
+                <p>Designed and developed at IIT Delhi for high-reliability, high-throughput wireless optical communication</p>
+            </div>
+        </section>
+
+        <section class="project-details-section">
+            <div class="container gallery-image" style="padding:2.5rem 2rem;">
+                <h2 class="section-title" style="margin-top:0;">Project Overview</h2>
+                <p>
+                Free-Space Optical (FSO) communication has emerged as a compelling solution for high-speed, secure, and license-free wireless data transmission. By utilizing laser beams as the transmission medium, FSO enables higher data throughput, reduced beam divergence, and more compact and lightweight transceiver hardware, all while consuming less power.
+                </p>
+                <p>
+                Exploiting these features, our team at IIT Delhi has indigenously developed a novel turbulence resilient FSO transceiver prototype featuring advanced beam engineering and a unified, fully automatic system for pointing, acquisition, and tracking (PAT), along with real-time network monitoring. Designed for operation in the C-band, our prototype targets data rates up to <strong>10 Gbps</strong> over distances up to <strong>20 km</strong>, achieving <strong>99% link reliability</strong> with a link establishment time of under <strong>30 minutes</strong>. These features make the system ideal for deployment in remote and challenging environments such as mountainous regions, rural areas, campus connectivity setups, and wireless camera links to centralized control rooms.
+                </p>
+                <div class="fso-photo-grid" style="display:flex;flex-wrap:wrap;gap:2rem;justify-content:center;margin:2rem 0;">
+                    <figure style="flex:1 1 320px;max-width:440px;">
+                        <img src="assets/fso1.png" alt="FSO Prototype IIT Delhi" style="width:100%;border-radius:16px;">
+                        <figcaption style="font-size:0.98rem;margin-top:0.5rem;color:var(--text-secondary);">Figure 1: Developed prototypes at IIT Delhi</figcaption>
+                    </figure>
+                    <figure style="flex:1 1 320px;max-width:440px;">
+                        <img src="assets/fso2.png" alt="FSO Prototype 2 IIT Delhi" style="width:100%;border-radius:16px;">
+                        
+                    </figure>
+                </div>
+                <h3>What is different about our system?</h3>
+                <ul style="padding-left:1.5em;color:var(--text-secondary);line-height:1.7;">
+                    <li>Commercial FSO systems use conventional laser beams, requiring manual/semi-automated alignment (bulky and slow).</li>
+                    <li>Atmospheric turbulence leads to scintillation, beam spreading and beam wandering, degrading performance for long-range links.</li>
+                    <li>We engineered the laser beam to mitigate scintillation, enhancing link availability and performance in difficult conditions.</li>
+                    <li>Automated coarse- and fine-alignment mechanisms (eliminating continuous manual intervention), ensuring robust, stable links.</li>
+                    <li>System is fully compatible with secure communications (fiber, wireless, mixed infrastructure).</li>
+                </ul>
+                <div style="margin:2.5rem 0;">
+                    <img src="assets/fso3.png" alt="FSO link test map" style="max-width:100%;border-radius:16px;">
+                    <div style="font-size:0.98rem;margin-top:0.5rem;color:var(--text-secondary);text-align:center;">
+                        Figure 2: FSO link testing: Bharti building to Vikramshila apartments (2km round trip) at IIT Delhi
+                    </div>
+                </div>
+                <h3>Key Metrics and Achievements</h3>
+                <ul style="padding-left:1.5em;color:var(--text-secondary);line-height:1.7;">
+                    <li>Current prototype system cost for two units: <strong>₹10 lakh</strong> (will reduce with design optimization and scale-up)</li>
+                    <li>100% indigenously designed, developed, and tested at IIT Delhi (full indigenization)</li>
+                    <li>Rigorously field-tested at IIT Delhi under rain, winter and challenging conditions</li>
+                    <li>Performance is affected by heavy fog, but remains robust in most of India except high-fog regions</li>
+                    <li>Ideal for remote terrains, rural India, campuses, and surveillance links</li>
+                </ul>
+                <hr style="margin:2.5rem 0;">
+                
+                <h3>Contact & Collaboration</h3>
+                <p>
+                    For technical reports, deployment collaborations, or press/media queries, contact <a href="mailto:abhishek.dixit@ee.iitd.ac.in" style="color:var(--accent-color);text-decoration:underline;">abhishek.dixit@ee.iitd.ac.in</a>
+                </p>
+                <div style="margin-top:2rem;">
+                    <a href="projects.html" class="btn btn-secondary">&larr; Back to Projects</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Dr. Abhishek Dixit. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="back.js"></script>
+</body>
+</html>
