@@ -1,0 +1,38 @@
+﻿
+
+StatusCode        : 200
+StatusDescription : OK
+Content           : {
+                      "last_updated": "Fri, 25 Jul 2025 
+                    21:21:32 GMT",
+                      "pagination": {
+                        "has_next": true,
+                        "page": 1,
+                        "per_page": 5,
+                        "total": 127,
+                        "total_pages": 26
+                      },
+                      "profile": {
+                        "affiliat...
+RawContent        : HTTP/1.1 200 OK
+                    Access-Control-Allow-Origin: *
+                    Connection: close
+                    Content-Length: 2964
+                    Content-Type: application/json
+                    Date: Tue, 19 Aug 2025 19:21:14 GMT
+                    Server: Werkzeug/3.1.3 Python/3.13.3
+                    
+                    {...
+Forms             : {}
+Headers           : {[Access-Control-Allow-Origin, *], 
+                    [Connection, close], [Content-Length, 
+                    2964], [Content-Type, 
+                    application/json]...}
+Images            : {}
+InputFields       : {}
+Links             : {}
+ParsedHtml        : mshtml.HTMLDocumentClass
+RawContentLength  : 2964
+
+
+
